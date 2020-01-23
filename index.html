@@ -4,11 +4,12 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>Presentación EMS</title>
 
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/theme/MultiCol.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/monokai.css">
@@ -39,8 +40,137 @@
 				<section>
 					<strong>Diagrama de Conexiones</strong>
 					<br>
-					<img style="border:none; box-shadow:none; width:700px" src="img/DiagramaConexiones.png"/>
+					<img style="border:none; box-shadow:none; width:600px" src="img/DiagramaConexiones.png"/>
 				</section>
+				<section>
+					<section>
+						<strong>Tabla 1. Consumo de energía por equipo</strong>
+						<br>
+						<br>
+						<table>
+					    	<thead><tr>
+					            <th>Equipo</th>
+					            <th>Potencia SB (W)</th>
+					            <th>Potencia Uso (W)</th>
+											<th>fp</th>
+											<th>Uso (h/día)</th>
+					        </tr></thead>
+					        <tbody>
+										<tr>
+					            <td>Ilumincación</td>
+					            <td>0.0</td>
+					            <td>88.0</td>
+											<td>0.950</td>
+											<td>9.5</td>
+						        </tr>
+						        <tr>
+											<td>Server</td>
+											<td>--</td>
+											<td>87.0</td>
+											<td>0.604</td>
+											<td>24</td>
+						        </tr>
+										<tr>
+											<td>UPS</td>
+											<td>43.0</td>
+											<td>45.4</td>
+											<td>0.676</td>
+											<td>24</td>
+						        </tr>
+										<tr>
+											<td>Regleta</td>
+											<td>4.0</td>
+											<td>4.0</td>
+											<td>0.565</td>
+											<td>24</td>
+						        </tr>
+										<tr>
+											<td>Dispensador</td>
+											<td>0.0</td>
+											<td>38.0</td>
+											<td>0.999</td>
+											<td>4</td>
+						        </tr>
+									</tbody>
+								</table>
+						</section>
+						<section>
+							<table>
+									<tbody>
+										<tr>
+											<td>Dispensador</td>
+											<td>0.0</td>
+											<td>38.0</td>
+											<td>0.999</td>
+											<td>4</td>
+						        </tr>
+										<tr>
+											<td>Microondas</td>
+											<td>3.08</td>
+											<td>1433.0</td>
+											<td>0.950</td>
+											<td>0.1</td>
+						        </tr>
+										<tr>
+											<td>Smart TV</td>
+											<td>2.10</td>
+											<td>235.0</td>
+											<td>0.898</td>
+											<td>3</td>
+						        </tr>
+										<tr>
+											<td>Impresora</td>
+											<td>5.40</td>
+											<td>538.0</td>
+											<td>0.950</td>
+											<td>0.2</td>
+						        </tr>
+										<tr>
+											<td>Laptop</td>
+											<td>15.8</td>
+											<td>30.0</td>
+											<td>0.560</td>
+											<td>6</td>
+						        </tr>
+										<tr>
+											<td>Teléfono</td>
+											<td>2.25</td>
+											<td>2.25</td>
+											<td>0.909</td>
+											<td>0,2</td>
+						        </tr>
+									</tbody>
+
+					    </table>
+					</section>
+				</section>
+				<section>
+					<h1>CONTROL DE ILUMINACIÓN</h1>
+				</section>
+				<section>
+					<strong>VALORES ESTÁNDAR EN ILUMINACIÓN</strong>
+					<div class='multiCol'>
+						<div class='col'>
+							<img style="border:none; width:350px" src="img/Foco.png" alt="Focof" align="left">
+						</div>
+						<div class='col'>
+							<strong>Cuarto</strong>
+							<br><br><br> <strong>Salón</strong>
+							<br><br><br> <strong>Cocina</strong>
+						</div>
+						<div class='col'>
+							Actividades generales 150 (LX)
+							<br>En la cama leyendo 150 (LX)
+							<br>Comedor 150 (LX)
+							<br>
+							<br> Actividades generales 100 (LX)
+							<br> Escribiendo o leyendo 300 (LX)
+							<br>
+							<br> Actividades generales 100 (LX)
+							<br> Encimera 300 (LX)
+						</div>
+					</div>
+				 </section>
 			</div>
 		</div>
 
